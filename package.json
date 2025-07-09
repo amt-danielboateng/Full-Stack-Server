@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "start": "node index.js",
     "devStart": "nodemon index.js"
   },
@@ -21,6 +22,8 @@
   },
   "devDependencies": {
     "sequelize": "^6.37.7",
-    "sequelize-cli": "^6.6.3"
+    "sequelize-cli": "^6.6.3",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
   }
 }
